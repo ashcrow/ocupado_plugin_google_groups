@@ -48,11 +48,9 @@ class GoogleGroups:
         self._http_instance = httplib2.Http()
         self._con = None
 
-    def authenticate(self, **kwargs):
+    def authenticate(self):
         """
         Defines how to authenticate via Google Groups.
-
-        :kwargs: Keyword arguments to use with authenticatation.
         """
         with open(self._oauth2_file_location) as f:
             conf_data = json.load(f)
