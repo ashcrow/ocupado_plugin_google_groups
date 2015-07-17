@@ -1,0 +1,7 @@
+{
+  "private_key_id": "0000000000000000000000000000000000000000",
+  "private_key": "-----BEGIN PRIVATE KEY-----\n0\n-----END PRIVATE KEY-----\n",
+  "client_email": "000000000000-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@developer.gserviceaccount.com",
+  "client_id": "000000000000-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apps.googleusercontent.com",
+  "type": "service_account"
+}

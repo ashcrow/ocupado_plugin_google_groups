@@ -1,0 +1,7 @@
+{
+   "kind": "directory#member",
+   "id": "111111111111111111111",
+   "email": "human@example.org",
+   "role": "MANAGER",
+   "type": "MEMBER"
+}

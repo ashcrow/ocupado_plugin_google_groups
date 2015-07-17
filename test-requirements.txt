@@ -1,0 +1,7 @@
+coverage
+mock
+pep8
+nose
+google-api-python-client
+httplib2
+PyOpenSSL

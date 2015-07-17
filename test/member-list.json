@@ -1,0 +1,20 @@
+{
+   "kind": "directory#members",
+   "members": [
+    {
+    "kind": "directory#member",
+    "id": "111111111111111111111",
+    "email": "human@example.com",
+    "role": "MANAGER",
+    "type": "MEMBER"
+   },
+   {
+    "kind": "directory#member",
+    "id": "111111111111111111111",
+    "email": "robot@example.com",
+    "role": "MANAGER",
+    "type": "MEMBER"
+   }
+  ],
+   "nextPageToken": "NNNNN"
+}
