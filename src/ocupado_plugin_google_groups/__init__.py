@@ -60,7 +60,7 @@ class GoogleGroups:
         creds = client.SignedJwtAssertionCredentials(
             conf_data['client_email'],
             conf_data['private_key'],
-            'https://www.googleapis.com/auth/admin.directory.user')
+            'https://www.googleapis.com/auth/admin.directory.group.readonly')
 
         http = creds.authorize(self._http_instance)
         self._con = discovery.build('admin', 'directory_v1', http=http)
